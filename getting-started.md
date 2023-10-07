@@ -21,8 +21,11 @@ This command will ask you everything about your tutorial’s configuration, answ
 First, it will ask you the grading type ([Grading Tutorials](./grading-tutorials)) you want for your tutorial:
 
 A) **Incremental**: In this type of exercise you can’t go to the next exercise until you pass the test of the current one. It is incremental, so further exercises require the knowledge of previous exercises.
+
 B) **Isolated**: Each exercise is independent so you can go to any exercise in the order you prefer. The latest exercises don’t need earlier exercises’ knowledge.
+
 C) **No Grading**: These exercises aren’t graded, therefore they don’t have tests.
+
 
 ![learnpack grading](https://raw.githubusercontent.com/learnpack/docs/main/assets/spaces_db2MUqxH83ZwH273KWpu_uploads_fAt71PHHbRLI1eiXNurN_Untitled%20(1).webp)
 ​​
