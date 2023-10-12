@@ -8,7 +8,7 @@ LearnPack is an interactive tutorial builder that allows content creators to bui
 You can easily create exercises with interactive instructions and automated tests by using LearnPack.
 Learnpack scans your current folder looking for markdown files that will become tutorial instructions and unit-test files that will grade the student.
 
-## Features:
+## Features
 
 - **Markdown support**: Add a bunch of README.md files and LearnPack will recognize them as tutorial or exercise steps. Discover our improved markdown features for personalized experiences.
 - **Language Compilation**: Install any language plugin and make learnpack compile your student solutions in html/css, vanillajs, javascript, python, react.js, and other languages.
