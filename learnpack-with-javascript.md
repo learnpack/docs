@@ -15,16 +15,12 @@ If you are not familiar with Jest, here are the most common tests that you will 
 //tests.js
 
 // rewirte library is used to avoid using import/export statements on the student code
-const rewire \= require('rewire');
+const rewire = require('rewire');
   
-test('The variable "name" should exist', () \=> {
-  
-  const file \= rewire("./app.js");
-  
-  const name \= file.\_\_get\_\_("name");
-  
+test('The variable "name" should exist', () => {
+  const file = rewire("./app.js");
+  const name = file.__get__("name");
   expect(name).not.toBe(undefined);
-
 })
 ```
 
@@ -34,34 +30,26 @@ test('The variable "name" should exist', () \=> {
 
 // tests.js
 
-const rewire \= require('rewire');
+const rewire = require('rewire');
 
-test('The variable "name" should have "James" as its value', () \=> {
-
-  const file \= rewire("./app.js");
-  
-  const name \= file.\_\_get\_\_("name");
-  
+test('The variable "name" should have "James" as its value', () => {
+  const file = rewire("./app.js");
+  const name = file.__get__("name");
   expect(name).toBe("James");
-
 })
 ```
 
 ### Testing a function exists:
 
 ```js
-tests.js
+// tests.js
 
-const rewire \= require('rewire');
+const rewire = require('rewire');
 
-test('The function "sum" should exist', () \=> {
-
-  const file \= rewire("./app.js");
-  
-  const sum \= file.\_\_get\_\_("sum");
-  
+test('The function "sum" should exist', () => {
+  const file = rewire("./app.js");
+  const sum = file.__get__("sum");
   expect(sum).not.toBe(undefined);
-
 })
 ```
 
@@ -70,16 +58,12 @@ test('The function "sum" should exist', () \=> {
 ```js
 // tests.js
 
-const rewire \= require('rewire');
+const rewire = require('rewire');
 
-test('The function "sum" should return the sum of two numbers', () \=> {
-
-  const file \= rewire("./app.js");
-  
-  const sum \= file.\_\_get\_\_("sum");
-  
+test('The function "sum" should return the sum of two numbers', () => {
+  const file = rewire("./app.js");
+  const sum = file.__get__("sum");
   expect(sum(4, 8)).toBe(12);
-
 })
 ```
 
@@ -88,20 +72,14 @@ test('The function "sum" should return the sum of two numbers', () \=> {
 ```js
 // tests.js
 
-const fs \= require('fs');
+const fs = require('fs');
+const path = require('path');
+const rewire = require('rewire');
 
-const path \= require('path');
-
-const rewire \= require('rewire');
-
-test('You have to use Math.random() function', () \=> {
-
-  const file \= fs.readFileSync(path.resolve(\_\_dirname, './app.js'), 'utf8');
-  
-  const regex \= /Math\\s\*\\.\\s\*random/gm
-  
+test('You have to use Math.random() function', () => {
+  const file = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
+  const regex = /Math\s*\.\s*random/gm
   expect(regex.test(file.toString())).toBeTruthy();
-
 })
 ```
 
@@ -110,18 +88,13 @@ test('You have to use Math.random() function', () \=> {
 ```js
 // tests.js
 
-const rewire \= require('rewire');
+const rewire = require('rewire');
+let buffer = "";
+global.console.log = console.log = jest.fn((text) => buffer += text + "\n");
 
-let buffer \= "";
-
-global.console.log \= console.log \= jest.fn((text) \=> buffer += text + "\\n");
-
-test('You have to call console.log() with "Hello World!" as value', () \=> {
-
-  const file \= rewire("./app.js");
-  
-  expect(buffer.includes("Hello World!\\n")).toBe(true);
-
+test('You have to call console.log() with "Hello World!" as value', () => {
+  const file = rewire("./app.js");
+  expect(buffer.includes("Hello World!\n")).toBe(true);
 })
 ```
 
@@ -130,17 +103,12 @@ test('You have to call console.log() with "Hello World!" as value', () \=> {
 ```js
 // tests.js
 
-const rewire \= require('rewire');
+const rewire = require('rewire');
+global.console.log = console.log = jest.fn(text => null);
 
-global.console.log \= console.log \= jest.fn(text \=> null);
-
-
-test('You have to call console.log() with 50 as value', () \=> {
-
-  const file \= rewire("./app.js");
-  
+test('You have to call console.log() with 50 as value', () => {
+  const file = rewire("./app.js");
   expect(console.log).toHaveBeenCalledWith(50);
-
 })
 ```
 
@@ -149,16 +117,12 @@ test('You have to call console.log() with 50 as value', () \=> {
 ```js
 // tests.js
 
-const rewire \= require('rewire');
+const rewire = require('rewire');
+global.console.log = console.log = jest.fn(text => null);
 
-global.console.log \= console.log \= jest.fn(text \=> null);
-
-test('You have to call console.log() twice', () \=> {
-
-  const file \= rewire("./app.js");
-  
+test('You have to call console.log() twice', () => {
+  const file = rewire("./app.js");
   expect(console.log.mock.calls.length).toBe(2);
-
 })
 ```
 
@@ -167,11 +131,7 @@ test('You have to call console.log() twice', () \=> {
 The following links are javascript coding tutorials:
 
 *   ​[https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial)​
-    
-
 *   ​[https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial)​
-    
-
 *   ​[https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial)​
     
 
