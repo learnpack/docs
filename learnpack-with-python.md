@@ -15,17 +15,13 @@ If you are not so familiar with `Pytest`, here are the most common tests that yo
 ```py
 # test.py
 
-@pytest.mark.it('You should create a variable named variables\_are\_cool')
+@pytest.mark.it('You should create a variable named variables_are_cool')
 
 def test_variable_exists(app):
-  
   try:
-  
-    app.variables\_are\_cool
-  
+    app.variables_are_cool
   except AttributeError:
-  
-    raise AttributeError('The variable "variables\_are\_cool" should exist on app.py')
+    raise AttributeError('The variable "variables_are_cool" should exist on app.py')
 ```
 
 ### Testing a variable has the expected value
@@ -36,7 +32,7 @@ def test_variable_exists(app):
 @pytest.mark.it('You should create a variable named myVariable with the value "Hello"')
 def test_variable_exists(app):
   try:
-    assert app.myVariable \== "Hello"
+    assert app.myVariable == "Hello"
   except AttributeError:
     raise AttributeError('The variable "myVariable" should exists')
 ```
@@ -60,9 +56,9 @@ def test_variable_exists(app):
 # test.py
 
 @pytest.mark.it('The function "myFunction" should return the value "Hello World!"')
-def test\_variable\_exists(app):
+def test_variable_exists(app):
   try:
-    assert app.myFunction \== "Hello World!"
+    assert app.myFunction == "Hello World!"
   except AttributeError:
     raise AttributeError('The function "myFunction" should exists')
 ```
@@ -75,17 +71,11 @@ def test\_variable\_exists(app):
 import os, re
 
 @pytest.mark.it("Create a variable named 'color' with the string value red")
-
 def test_declare_variable():
-
   path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
-  
   with open(path, 'r') as content_file:
-  
     content = content_file.read()
-    
     regex = re.compile(r"color(\s*)=(\s*)\"red\"")
-    
     assert bool(regex.search(content)) == True
 ```
 
@@ -97,10 +87,11 @@ def test_declare_variable():
 import io, sys
 
 @pytest.mark.it('The printed value on the console should be "red"')
-def test\_for\_file\_output(capsys, app):
+def test_for_file_output(capsys, app):
   app()
-  captured \= capsys.readouterr()
-  assert "red\\n" \== captured.out
+  captured = capsys.readouterr()
+  assert "red\n" == captured.out
+```
 
 ## Examples
 
