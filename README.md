@@ -7,8 +7,8 @@
 6. [Quality](./tutorial-quality.md)
 7. Programming Languages
 
-   - [Javascript](./learnpack-with-javascript.md)  
-   - [Python](./learnpack-with-python.md)  
-   - [HTML/CSS](./learnpack-with-html-css.md)  
-   - [React](./learnpack-with-react.md)  
-   - [The DOM](./learnpack-with-dom.md)  
+   - [Building tutorials for Javascript](./learnpack-with-javascript.md)  
+   - [Building tutorials for Python](./learnpack-with-python.md)  
+   - [Building tutorials for HTML/CSS](./learnpack-with-html-css.md)  
+   - [Building tutorials for React](./learnpack-with-react.md)  
+   - [Building tutorials for The DOM](./learnpack-with-dom.md)  
