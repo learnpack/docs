@@ -18,7 +18,7 @@ To create your first tutorial, you have to follow these steps:
 3. Then run this command to start configuring your tutorial: `$ learnpack init`.  
 This command will ask you everything about your tutorial’s configuration, answer all the questions and your tutorial’s project will be successfully created. These are the questions it will ask you:
 
-First, it will ask you the grading type ([Grading Tutorials](./grading-tutorials)) you want for your tutorial:
+First, it will ask you the grading type ([Grading Tutorials](https://4geeks.com/docs/learnpack/grading-learnpack-tutorials)) you want for your tutorial:
 
 A) **Incremental**: In this type of exercise you can’t go to the next exercise until you pass the test of the current one. It is incremental, so further exercises require the knowledge of previous exercises.  
 
