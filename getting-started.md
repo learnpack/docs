@@ -54,7 +54,7 @@ The last two files depend on the language you are using.
 
 ## Learners
 
-1. To install the LearnPack CLI, run the npm install @learnpack/learnpack -g.
+1. To install the LearnPack CLI, run the following command: `$ npm install @learnpack/learnpack -g`
 
 2. Install the tutorial you want to use by downloading the repository code, for example: You can use the `git clone` command to download [these exercises](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial):
 
