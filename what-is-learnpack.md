@@ -1,6 +1,8 @@
 # What is LearnPack?
+![Example LearnPack running](https://github.com/learnpack/docs/assets/107764250/86aa60a5-4ebd-4a9f-9aa4-00ea969230be)
 
 LearnPack is a powerful tool for learning coding-related skills easily at your own pace. However, this definition may be too simplistic for the complexity and usefulness of LearnPack. Let's delve into a more detailed definition of LearnPack to help you understand it deeply:
+
 
 LearnPack:
 - Is a tool to run tutorials in the cloud or locally on any operating system.
