@@ -8,9 +8,10 @@ La forma más fácil de empezar a aprender con LearnPack es iniciar cualquier tu
 ![Select tutorial](https://github.com/learnpack/docs/assets/107764250/f9cd5929-972f-462e-b6b9-c7336763c23f)
 
 2. Presionar **Code** y luego **Create codespace on master**
+
 ![Create Codespace](https://github.com/learnpack/docs/assets/107764250/982084dd-0053-4ab0-b6b8-d3b2c2037fc5)
 
-3. Cuando el Codespace termine de cargar, ¡está listo!
+4. Cuando el Codespace termine de cargar, ¡está listo!
 Ahora solo debes empezar a leer las instrucciones y realizar los ejercicios.
 ![image](https://github.com/learnpack/docs/assets/107764250/d58a3831-b18a-4799-88be-75e9ed293254)
 
