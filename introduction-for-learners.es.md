@@ -1,3 +1,7 @@
+---
+technologies: "LearnPack"
+---
+
 # Un vistazo a LearnPack
 
 LearnPack está listo para que aprendas de manera inmediata e interactiva cualquier tecnología que puedas ver en la imagen. Comenzar con LearnPack es tan fácil como abrir un repositorio de LearnPack en Codespaces o Gitpod, y una vez que todo se cargue, LearnPack estará funcionando con el tutorial que hayas elegido.
