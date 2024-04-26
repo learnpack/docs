@@ -1,5 +1,5 @@
 ---
-technologies: "LearnPack"
+"tags": "LearnPack"
 ---
 
 # Un vistazo a LearnPack
