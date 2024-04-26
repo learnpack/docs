@@ -1,5 +1,5 @@
 ---
-"tags": "LearnPack"
+tags: ["LearnPack"]
 ---
 
 # Un vistazo a LearnPack
