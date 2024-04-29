@@ -1,3 +1,9 @@
+---
+tags: ["LearnPack"]
+authors: ["Charlytoc"]
+
+---
+
 # Controles de LearnPack 
 Usar LearnPack no es algo del otro mundo, todo ha sido diseñado de manera intuitiva y pensando primero en la experiencia del usuario. Dentro de LearnPack, además, en el apartado de **Obtener ayuda** tienes una opción para aprender a usarlo: **LearnPack tour** ![LearnPack tour](https://github.com/learnpack/docs/assets/107764250/e70689d6-e78b-4b00-ba4a-52301b448c8a)  Tomemos el tour juntos.  
 
