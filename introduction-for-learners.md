@@ -1,3 +1,9 @@
+---
+tags: ["LearnPack"]
+authors: ["Charlytoc"]
+
+---
+
 # A Glimpse at LearnPack
 
 LearnPack is ready for you to learn immediately and interactively any technology you can see in the image. Starting with LearnPack is as easy as opening a LearnPack repository in Codespaces or Gitpod, and once everything loads, LearnPack will be running with the tutorial you have chosen.
