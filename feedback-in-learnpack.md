@@ -1,3 +1,9 @@
+---
+tags: ["LearnPack"]
+authors: ["Charlytoc"]
+
+---
+
 # How to get feedback in LearnPack
 
 Feedback is an essential part of learning. Have you noticed while studying how people who ask the most questions tend to understand the topic better? It's because they get instant feedback on what they think.
