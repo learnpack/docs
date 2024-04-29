@@ -1,3 +1,9 @@
+---
+tags: ["LearnPack"]
+authors: ["Charlytoc"]
+
+---
+
 # How to teach with LearnPack?
 
 LearnPack consists of several connected applications, a CLI that allows you to install plugins, start tutorials, or restart them completely to delete temporary files. In addition to a VSCode extension that allows you to open a React interface so that the student can read the instructions, run their code, talk to Rigobot AI, and perform more actions.
