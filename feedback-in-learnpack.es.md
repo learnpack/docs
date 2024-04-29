@@ -1,3 +1,9 @@
+---
+tags: ["LearnPack"]
+authors: ["Charlytoc"]
+
+---
+
 # Cómo obtener feedback en LearnPack  
 El feedback es una parte esencial del aprendizaje, ¿has notado mientras estudias cómo las personas que más preguntas hacen suelen entender mejor el tema? Es porque obtiene feedback instantáneo de lo que piensan.   
 - Lee un poco más sobre el feedback [aquí](https://4geeks.com/mastering-technical-knowledge#feedback-quality-and-frequency)
