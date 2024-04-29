@@ -1,4 +1,4 @@
-# Getting Started with LearnPack (Quick Start)
+# Getting Started with LearnPack as a Creator
 
 There are two use cases that you can take advantage of when using LearnPack. 
 
@@ -7,15 +7,12 @@ Find LearnPack at npm, click  to download the package: [click here](https://www.
 
 > ✋ Make sure you have node installed before going to the next step!)
 
-## Creators
-
 ### Start your first tutorial
 
 To create your first tutorial, you have to follow these steps:
 
 1. Install LearnPack globally on your computer by running this command (You should have node installed): `$ npm install @learnpack/learnpack -g`.  
-2. Go to the path where you want to save the tutorial’s repository, and create the directory where you want them to be: `$ mkdir name-of-tutorials`.  
-3. Then run this command to start configuring your tutorial: `$ learnpack init`.  
+2. Then run this command to start configuring your tutorial: `$ learnpack init`.  
 This command will ask you everything about your tutorial’s configuration, answer all the questions and your tutorial’s project will be successfully created. These are the questions it will ask you:
 
 First, it will ask you the grading type ([Grading Tutorials](https://4geeks.com/docs/learnpack/grading-learnpack-tutorials)) you want for your tutorial:
@@ -35,16 +32,23 @@ C) **No Grading**: These exercises aren’t graded, therefore they don’t have 
 ​​
 5. It should ask for the description after the title.
 
-![learnpack tutorial description](https://raw.githubusercontent.com/learnpack/docs/main/assets/spaces_db2MUqxH83ZwH273KWpu_uploads_o1g66SCwgmgxLuVukwlF_Untitled%20(2).webp)​​
+![Description](https://github.com/learnpack/docs/assets/107764250/81ac944c-aa4e-4d59-b11d-35dd9bd6bad4)
+​​
 
 6. Then it will ask you for the difficulty of your tutorial exercises (Beginner, Easy, Intermediate, Hard).
-​​
+​​![Difficulty](https://github.com/learnpack/docs/assets/107764250/0c53e08f-e5fc-42f0-9665-e5a6f0fcbe03)
+
+
 7. The next question will be how many hours it should take to complete the tutorial.
+You can just leave this as the default number (1) if you are still not clear of how long the tutorial will be.
 ​​
-It will create all the files of your tutorial.  
+It will create all the files of your tutorial and a new directory containing them.  
 This is what your project should look like:
 
-![](https://raw.githubusercontent.com/learnpack/docs/main/assets/spaces_db2MUqxH83ZwH273KWpu_uploads_jiyWpJtxitCrqlce2EPj_Untitled%20(5).webp)
+
+
+![Directory files](https://github.com/learnpack/docs/assets/107764250/6c1b662d-4c6d-431d-b84a-0c28885a96ba)
+
 ​​
 Now you have to add the folder of each of the exercises that you are going to add to your tutorial with a structure similar to the one created by the command `$ learnpack init`. 
 
@@ -52,19 +56,4 @@ It should have the `README.md` file, the `test` file, and the entry file (usuall
 
 The last two files depend on the language you are using.
 
-## Learners
-
-1. To install the LearnPack CLI, run the following command: `$ npm install @learnpack/learnpack -g`
-
-2. Install the tutorial you want to use by downloading the repository code, for example: You can use the `git clone` command to download [these exercises](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial):
-
-```bash
-$ git clone https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial
-```
-
-3. Install the LearnPack plugin that you need depending on the programming language that the tutorial uses, for example, for installing the javascript plugin you can run `learnpack plugins:install learnpack-node`.
-
-> 🔥 Here is more information about [LearnPack Compiler Plugins](./configure#compiler-plugins).
-
-After installing everything, the last step to start using LearnPack, is running the command learnpack start
-Ready to start learning!
+[Here](#nowhere-still) is a detailed explanation of each file
