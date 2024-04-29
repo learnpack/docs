@@ -32,11 +32,11 @@ C) **No Grading**: These exercises aren’t graded, therefore they don’t have 
 ​​
 5. It should ask for the description after the title.
 
-![Description](https://github.com/learnpack/docs/assets/107764250/81ac944c-aa4e-4d59-b11d-35dd9bd6bad4)
+![Description](https://github.com/learnpack/docs/blob/main/assets/description-init.png)
 ​​
 
 6. Then it will ask you for the difficulty of your tutorial exercises (Beginner, Easy, Intermediate, Hard).
-​​![Difficulty](https://github.com/learnpack/docs/assets/107764250/0c53e08f-e5fc-42f0-9665-e5a6f0fcbe03)
+​​![Difficulty](https://github.com/learnpack/docs/blob/main/assets/difficulty.png)
 
 
 7. The next question will be how many hours it should take to complete the tutorial.
@@ -47,7 +47,7 @@ This is what your project should look like:
 
 
 
-![Directory files](https://github.com/learnpack/docs/assets/107764250/6c1b662d-4c6d-431d-b84a-0c28885a96ba)
+![Directory files](https://github.com/learnpack/docs/blob/main/assets/initial-files.png)
 
 ​​
 Now you have to add the folder of each of the exercises that you are going to add to your tutorial with a structure similar to the one created by the command `$ learnpack init`. 
