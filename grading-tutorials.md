@@ -4,9 +4,11 @@ Auto-graded exercises are one of the key features offered by LearnPack, it allow
 
 With LearnPack you can create tutorials with different grading modes, these are the grading modes you can use:  
 
-1. **Incremental**: In this grading mode of exercises, you can’t go to the next exercise until you pass the test of the current one. It is incremental, so further exercises require the knowledge of previous exercises. This grading mode is good for tutorials.  
-2. **Isolated**: In the isolated mode each exercise is independent so you can go to any exercise in the order you prefer. The latest exercises don’t need earlier exercises’ knowledge.  
-3. **No Grading**: These exercises aren’t graded, therefore they don’t have tests.  
+1. **Incremental**: In this grading mode of exercises, you can’t go to the next exercise until you pass the test of the current one. It is incremental, so further exercises require the knowledge of previous exercises. This grading mode is good for tutorials.
+![incremental-example](https://github.com/learnpack/docs/assets/107764250/b3ba5b5d-f7db-49a5-86dd-1628584c9aaa)
+
+3. **Isolated**: In the isolated mode each exercise is independent so you can go to any exercise in the order you prefer. The latest exercises don’t need earlier exercises’ knowledge.  
+4. **No Grading**: These exercises aren’t graded, therefore they don’t have tests.  
 
 ## Validate your Unit Tests
 
