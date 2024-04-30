@@ -1,3 +1,9 @@
+---
+tags: ["LearnPack"]
+authors: ["Charlytoc"]
+
+---
+
 # Configuración de LearnPack
 
 ### El archivo learn.json
