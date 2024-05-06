@@ -1,7 +1,7 @@
 ---
 tags: ["LearnPack"]
 authors: ["Charlytoc"]
-
+description: "Explore los controles intuitivos de LearnPack, que incluyen un recorrido útil, configuraciones de idioma, ejecución de código, opciones de comentarios y más para una experiencia de aprendizaje mejorada."
 ---
 
 # Controles de LearnPack 
