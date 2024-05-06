@@ -1,3 +1,7 @@
+---
+description: "Mejora tu configuración de LearnPack con telemetría para desbloquear insights clave y optimizar la gestión de tus cursos."
+---
+
 # Mejora tu experiencia en LearnPack con la configuración de telemetría
 
 Descubre el poder de LearnPack y lleva la gestión de tus cursos al siguiente nivel configurando la telemetría. Esta característica no se trata solo de recopilar datos; se trata de desbloquear percepciones que pueden revolucionar el viaje de aprendizaje. Pero, ¿cómo configuras la ruta para telemetry.json o transmites eventos a medida que ocurren?
