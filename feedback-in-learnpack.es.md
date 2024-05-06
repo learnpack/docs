@@ -1,7 +1,7 @@
 ---
 tags: ["LearnPack"]
 authors: ["Charlytoc"]
-
+description: "Explora la retroalimentación efectiva con LearnPack a través de pruebas autoevaluadas, mentoría IA y soluciones en video para mejorar tu aprendizaje."
 ---
 
 # Cómo obtener feedback en LearnPack  
