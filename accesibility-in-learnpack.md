@@ -1,3 +1,8 @@
+---
+description: "LearnPack enhances accessibility by adhering to WCAG standards, ensuring high contrast, readable fonts, and comprehensive keyboard navigation."
+
+---
+
 # Accessibility in LearnPack
 
 When discussing accessibility, it's important to reference web standards such as the Web Content Accessibility Guidelines (WCAG), which provide good practices for making web page content understandable for everyone, regardless of the user-agent.
