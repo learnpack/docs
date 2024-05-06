@@ -1,7 +1,7 @@
 ---
 tags: ["LearnPack"]
 authors: ["Charlytoc"]
-description: "Hello world"
+description: "Teaching with LearnPack is a breeze. In this article you will learn how to use LearnPack to distribute your tutorials."
 
 ---
 
