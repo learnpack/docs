@@ -1,3 +1,8 @@
+---
+description: "Explora la creación de tutoriales interactivos con LearnPack. Instala globalmente, inicia proyectos y personaliza ejercicios."
+
+---
+
 # Comenzando con LearnPack como Creador
 
 Existen dos casos de uso que puedes aprovechar al usar LearnPack.
