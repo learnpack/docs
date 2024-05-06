@@ -1,3 +1,8 @@
+---
+description: "Telemetría de LearnPack mejora la experiencia del usuario al rastrear interacciones y métricas de rendimiento, almacenadas localmente para análisis de mejoras."
+---
+
+
 # Cómo funciona la **Telemetría de LearnPack**?
 La telemetría es un aspecto crucial de las aplicaciones modernas, permitiendo a los desarrolladores entender cómo los usuarios interactúan con su software. LearnPack ha introducido recientemente la telemetría para mejorar la experiencia del usuario mediante el seguimiento de diversas métricas.
 
