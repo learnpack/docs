@@ -1,6 +1,7 @@
 ---
 tags: ["LearnPack"]
 authors: ["Charlytoc"]
+description: "Explore effective feedback with LearnPack through self-assessed tests, AI mentoring, and video solutions to enhance your learning."
 
 ---
 
