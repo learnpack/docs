@@ -1,7 +1,8 @@
 ---
 tags: ["LearnPack"]
 authors: ["Charlytoc"]
-description: "Enseñar con LearnPack es muy sencillo. En este artículo aprenderá cómo utilizar LearnPack para distribuir sus tutoriales".
+description: "Enseñar con LearnPack es muy sencillo. En este artículo aprenderá cómo utilizar LearnPack para distribuir sus tutoriales"
+
 ---
 
 # ¿Cómo enseñar con LearnPack?
