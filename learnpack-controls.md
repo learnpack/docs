@@ -1,6 +1,7 @@
 ---
 tags: ["LearnPack"]
 authors: ["Charlytoc"]
+description: "Explore LearnPack's intuitive controls, including a helpful tour, language settings, code execution, feedback options, and more for an enhanced learning experience."
 
 ---
 
