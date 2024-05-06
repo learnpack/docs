@@ -1,3 +1,7 @@
+---
+description: "LearnPack mejora la accesibilidad cumpliendo con los estándares WCAG, asegurando alto contraste, fuentes legibles y navegación completa por teclado."
+---
+
 # Accesibilidad en LearnPack
 
 Al discutir sobre accesibilidad, es importante referirse a estándares web como las Pautas de Accesibilidad para el Contenido Web (WCAG), que proporcionan buenas prácticas para hacer que el contenido de las páginas web sea comprensible para todos, independientemente del agente de usuario. LearnPack considera estas pautas y se esfuerza continuamente por mejorar la experiencia del usuario, haciéndola más fácil de entender.
