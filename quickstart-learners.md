@@ -1,3 +1,7 @@
+---
+description: "Kickstart your coding journey with LearnPack! Easily access tutorials via Codespaces, Gitpod, or locally with detailed guides."
+---
+
 # Start Learning with LearnPack
 
 The easiest way to start learning with LearnPack is to initiate any tutorial through Codespaces or Gitpod. [Here](https://github.com/4GeeksAcademy/Interactive-Tutorials) you have a guide with different tutorials you can do now.
