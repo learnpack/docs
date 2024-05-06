@@ -1,3 +1,7 @@
+---
+description: "Enhance your LearnPack setup with telemetry to unlock key insights and streamline your course management."
+---
+
 # Elevate Your LearnPack Experience with Telemetry Configuration
 Discover the power of LearnPack and take your course management to the next level by configuring telemetry. This feature is not just about collecting data; it's about unlocking insights that can revolutionize the learning journey. But how do you set up the path for telemetry.json or stream events as they happen?
 
