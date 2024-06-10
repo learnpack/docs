@@ -122,16 +122,22 @@ But currently LearnPack is able to install the plugin by itself based on the exe
 
 We are still working to add the new version with the flags. They will allow you to run the command with special behavior.
  -->
- 
-### Gitpod Integration
 
-​[Gitpod](https://www.gitpod.io/) is an amazing tool that can help your tutorial’s user experience by allowing a very simple way to use Learnpack.
+## Cloud Provisioning
+
+As a design decision; LearnPack doesn't handle any technology installation or setup for your tutorials.
+
+It's a great idea to use cloud provisioning vendors like Gitpod or Github Codespaces to remove setup and tech installation from the user and greatly reduce learning friction. Provisioning vendors can automate every step of the tutorial's technology needs in a matter of seconds and LearnPack will start immediately after the environment is ready:
+
+### Provisioning LearnPack with Gitpod
+
+​[Gitpod](https://www.gitpod.io/) asks for a `[./gitpod.yml](https://www.gitpod.io/docs/references/gitpod-yml)` file to be added at the root of the repository. Gitpod allows you to specify a Docker image, python version and anything you need for your LearnPack tutorial to run smoothly.
 
 Using Gitpod on your tutorial will allow the learners to access and start the tutorials only by clicking once.
 
 ![](https://github.com/learnpack/docs/blob/main/assets/gitpod.gif?raw=true)
 
-### Codespaces Integration
+### Provisioning LearnPack with Github Codespaces
 
 [Codespaces](https://github.visualstudio.com/features/codespaces/) provides a powerful, customizable, and scalable cloud development environment. LearnPack can run seamlessly within a Codespace, allowing learners to access and start tutorials with minimal setup. This integration ensures that all necessary dependencies and tools are pre-configured, making the learning process smooth and efficient.
 
