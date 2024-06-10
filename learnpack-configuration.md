@@ -87,19 +87,19 @@ LearnPack has some plugins that allow you to compile and test tutorials in diffe
 
 These are the plugins for the named languages:
 
-*   `@learnpack/html`
+*   `[@learnpack/html](https://4geeks.com/docs/learnpack/building-html-css-tutorials)`
     
 
-*   `@learnpack/node`
+*   `[@learnpack/node](https://4geeks.com/docs/learnpack/building-javascript-tutorials)`
     
 
-*   `@learnpack/python`
+*   `[@learnpack/python](https://4geeks.com/docs/learnpack/building-python-tutorials)`
     
 
-*   `@learnpack/dom`
+*   `[@learnpack/dom](https://4geeks.com/docs/learnpack/building-dom-tutorials)`
     
 
-*   `@learnpack/react`
+*   `[@learnpack/react](https://4geeks.com/docs/learnpack/building-react-tutorials)`
     
 
 PS: When using one of these languages with LearnPack, you have to install the corresponding plugin to compile and test the exercises. This is how you install the plugins:
