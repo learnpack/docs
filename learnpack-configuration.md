@@ -87,19 +87,19 @@ LearnPack has some plugins that allow you to compile and test tutorials in diffe
 
 These are the plugins for the named languages:
 
-*   `[@learnpack/html](https://4geeks.com/docs/learnpack/building-html-css-tutorials)`
+*   [@learnpack/html](https://4geeks.com/docs/learnpack/building-html-css-tutorials): Very simple setup for HTML and CSS grading and compilation.
     
 
-*   `[@learnpack/node](https://4geeks.com/docs/learnpack/building-javascript-tutorials)`
+*   [@learnpack/node](https://4geeks.com/docs/learnpack/building-javascript-tutorials): For purely javascript and node.js tutorials.
     
 
-*   `[@learnpack/python](https://4geeks.com/docs/learnpack/building-python-tutorials)`
+*   [@learnpack/python](https://4geeks.com/docs/learnpack/building-python-tutorials): Python 3 compiler with pyUnit integration for testing.
     
 
-*   `[@learnpack/dom](https://4geeks.com/docs/learnpack/building-dom-tutorials)`
+*   [@learnpack/dom](https://4geeks.com/docs/learnpack/building-dom-tutorials): It uses WebPack to compile each tutorial as a website and jest for DOM testing.
     
 
-*   `[@learnpack/react](https://4geeks.com/docs/learnpack/building-react-tutorials)`
+*   [@learnpack/react](https://4geeks.com/docs/learnpack/building-react-tutorials): It uses WebPack to build your tutorials for react 18 and jest for exercise testing.
     
 
 PS: When using one of these languages with LearnPack, you have to install the corresponding plugin to compile and test the exercises. This is how you install the plugins:
