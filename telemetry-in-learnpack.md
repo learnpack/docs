@@ -22,14 +22,8 @@ This data is stored locally, but LearnPack can stream or batch it to any server 
 
 > 🕵️ Your privacy is important. We only collect non-sensitive usage data to enhance LearnPack's performance and user experience.
 
-### File telemetry.json
 
-_What is the structure of a typical telemetry.json, what information is stored and how often is sent to the server._
+For more information about the telemetry, how can be configured for your own needs, please refer to the section [Telemetry Configuration](https://4geeks.com/docs/learnpack/telemetry-configuration)
 
-### Telemetry webhook
 
-_how to configure the telemetry web and how will the data will be streamed or sent in batch__
 
-_add reference to the [section in the configuration](https://4geeks.com/lesson/learnpack-configuration)_
-
-_How can I specify my own telemetry endpoint and save my data into my own server._
