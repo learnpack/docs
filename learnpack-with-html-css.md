@@ -6,7 +6,7 @@ In addition, the main file should be named `index.html`, and the file for the te
 
 ### Unit Testing
 
-For testing, you should install [Jest](https://jestjs.io/) with the version "24.8.0". You can install it by running the following command: `npm install jest@24.8.0 -g`
+For testing, you should install [Jest](https://jestjs.io/) with the version "29.7.0". You can install it by running the following command: `npm install jest@29.7.0 -g`
 
 If you are not so familiar with [Jest](https://jestjs.io/), here are the most common tests that you will use when testing an HTML/CSS exercise tutorial:
 
