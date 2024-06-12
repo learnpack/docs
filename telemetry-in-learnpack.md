@@ -3,7 +3,7 @@ description: "LearnPack Telemetry enhances user experience by tracking interacti
 ---
 
 
-# How **LearnPack Telemetry** works?
+# How LearnPack Telemetry works?
 
 Telemetry is a crucial aspect of modern applications, allowing developers to understand how users interact with their software. LearnPack has recently introduced telemetry to enhance user experience by tracking various metrics.
 
