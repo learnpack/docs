@@ -1,6 +1,6 @@
 # Available Interactive Tutorials
 
-All courses and tutorials are 👆 interactive, ✅ auto-graded and with 📹 video solutions. [Request a new tutorial](https://github.com/4GeeksAcademy/About-4Geeks-Academy/issues/new), [help us build new ones](https://github.com/4GeeksAcademy/About-4Geeks-Academy/labels/help%20wanted) or [submit a new tutorial](https://github.com/4GeeksAcademy/Interactive-Tutorials/blob/master/CONTRIBUTING.md).
+All courses and tutorials are 👆 interactive, ✅ auto-graded, and with 📹 video solutions. You can build your tutorials by [following our documentation](https://4geeks.com/docs/learnpack/learnpack-quick-start).
 
 ### HTML/CSS & The DOM
 
