@@ -1,3 +1,8 @@
+---
+tags: ['learnpack']
+
+---
+
 # Available Interactive Tutorials
 
 All courses and tutorials are 👆 interactive, ✅ auto-graded, and with 📹 video solutions. You can build your tutorials by [following our documentation](https://4geeks.com/docs/learnpack/learnpack-quick-start).
