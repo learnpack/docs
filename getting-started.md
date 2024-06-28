@@ -42,24 +42,17 @@ C) **No Grading**: These exercises aren’t graded, therefore they don’t have 
 ​​
 4. Next, it will ask for the tutorial’s title.
 
-![learnpack tutorial title](https://github.com/learnpack/docs/blob/main/assets/tutorial-title.png?raw=true)
-​​
 5. It should ask for the description after the title.
 
-![Description](https://github.com/learnpack/docs/blob/main/assets/description-init.png)
-​​
-
 6. Then it will ask you for the difficulty of your tutorial exercises (Beginner, Easy, Intermediate, Hard).
-​​![Difficulty](https://github.com/learnpack/docs/blob/main/assets/difficulty.png)
-
 
 7. The next question will be how many hours it should take to complete the tutorial.
+
 You can just leave this as the default number (1) if you are still not clear of how long the tutorial will be.
 ​​
 It will create all the files of your tutorial and a new directory containing them.  
+
 This is what your project should look like:
-
-
 
 ![Directory files](https://github.com/learnpack/docs/blob/main/assets/initial-files.png)
 
