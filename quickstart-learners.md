@@ -8,7 +8,7 @@ tags: ['learnpack']
 
  The following is a more detailed explanation on how to open LearnPack's tutorials locally or in the cloud:
 
-## Pick the tutorial
+## Pick your first tutorial
 
 You can learn many things with LearnPack: What do you want to learn? Our most popular tutorials help you learn [javascript arrays](https://4geeks.com/interactive-exercise/javascript-array-loops-exercises), [react js](https://4geeks.com/interactive-exercise/react-js-tutorial-exercises), how to [build API's with Python Flask](https://4geeks.com/interactive-coding-tutorial/python-flask-api-tutorial), etc. 
 
