@@ -15,8 +15,18 @@ Find LearnPack at npm, click  to download the package: [click here](https://www.
 
 To create your first tutorial, you have to follow these steps:
 
-1. Install LearnPack globally on your computer by running this command (You should have node installed): `$ npm install @learnpack/learnpack -g`.  
-2. Then run this command to start configuring your tutorial: `$ learnpack init`.  
+1. Install LearnPack globally on your computer by running this command (You should have node installed):
+
+```bash
+$ npm install @learnpack/learnpack -g
+```
+
+3. Then run this command to start configuring your tutorial
+
+```bash
+$ learnpack init
+```
+
 This command will ask you everything about your tutorial’s configuration, answer all the questions and your tutorial’s project will be successfully created. These are the questions it will ask you:
 
 First, it will ask you the grading type ([Grading Tutorials](https://4geeks.com/docs/learnpack/grading-learnpack-tutorials)) you want for your tutorial:
