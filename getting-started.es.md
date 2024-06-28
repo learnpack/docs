@@ -16,8 +16,18 @@ Encuentra LearnPack en npm, haz clic para descargar el paquete: [haz clic aquí]
 
 Para crear tu primer tutorial, debes seguir estos pasos:
 
-1. Instala LearnPack globalmente en tu computadora ejecutando este comando (debes tener node instalado): `$ npm install @learnpack/learnpack -g`.  
-2. Luego ejecuta este comando para comenzar a configurar tu tutorial: `$ learnpack init`.  
+1. Instala LearnPack globalmente en tu computadora ejecutando este comando (debes tener node instalado)
+
+```bash
+$ npm install @learnpack/learnpack -g
+```
+
+2. Luego ejecuta este comando para comenzar a configurar tu tutorial
+
+```bash
+$ learnpack init
+```
+
 Este comando te preguntará todo sobre la configuración de tu tutorial, responde todas las preguntas y tu proyecto de tutorial será creado exitosamente. Estas son las preguntas que te hará:
 
 Primero, te preguntará el tipo de calificación ([Tutoriales de Calificación](https://4geeks.com/docs/learnpack/grading-learnpack-tutorials)) que deseas para tu tutorial:
