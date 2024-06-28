@@ -1,4 +1,5 @@
 ---
+title: 'Quickstart: How to install and start taking LearnPack tutorials'
 description: "Kickstart your coding journey with LearnPack! Easily access tutorials via Codespaces, Gitpod, or locally with detailed guides."
 tags: ['learnpack']
 ---
