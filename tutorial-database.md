@@ -36,7 +36,7 @@ All courses and tutorials are 👆 interactive, ✅ auto-graded, and with 📹 v
 - [Build API's with Node Express](https://github.com/4GeeksAcademy/node-api-tutorial)
 - [Unit testing with Jest (2 hrs)](https://github.com/breatheco-de/exercise-unit-test-with-jest)
 
-### Back-end with Python 
+## Back-end with Python 
 
 - [Python for Beginners (20 hrs)](https://github.com/4GeeksAcademy/python-beginner-programming-exercises)
 - [Practice Looping Lists and Tuples (30 hrs)](https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises)
@@ -47,7 +47,7 @@ All courses and tutorials are 👆 interactive, ✅ auto-graded, and with 📹 v
 - [Introducion to pandas](https://github.com/4GeeksAcademy/python-pandas-tutorial)
 - [Introduction to Numpy (under development](https://github.com/4GeeksAcademy/numpy-100)
 
-### Java (under development) 
+## Java (under development) 
 
 - [Java for Beginners (8 hrs)](https://github.com/4GeeksAcademy/java-beginner-exercises)
 
