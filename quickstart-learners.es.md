@@ -1,65 +1,96 @@
 ---
-description: "¡Inicia tu camino en la programación con LearnPack! Accede fácilmente a tutoriales mediante Codespaces, Gitpod o localmente con guías detalladas."
+title: 'Quickstart: How to install and start taking LearnPack tutorials'
+description: "Kickstart your coding journey with LearnPack! Easily access tutorials via Codespaces, Gitpod, or locally with detailed guides."
+tags: ['learnpack']
 ---
 
+# Start Learning with LearnPack
 
-# Empieza a aprender con LearnPack
+ The following is a more detailed explanation on how to open LearnPack's tutorials locally or in the cloud:
 
-La forma más fácil de empezar a aprender con LearnPack es iniciar cualquier tutorial a través de Codespaces o Gitpod. [Aquí](https://github.com/4GeeksAcademy/Interactive-Tutorials) tienes una guía con distintos tutoriales que puedes hacer ahora.
+## Pick the tutorial
 
-## Cómo abrir cualquier tutorial de LearnPack en Codespace o Gitpod
+You can learn many things with LearnPack: What do you want to learn? Our most popular tutorials help you learn [javascript arrays](https://4geeks.com/interactive-exercise/javascript-array-loops-exercises), [react js](https://4geeks.com/interactive-exercise/react-js-tutorial-exercises), how to [build API's with Python Flask](https://4geeks.com/interactive-coding-tutorial/python-flask-api-tutorial), etc. 
 
-1. Seleccionar el tutorial que te interesa, en este caso, solo clickearé el de [Looping with Javascript](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) 
-![Select tutorial](https://github.com/learnpack/docs/assets/107764250/f9cd5929-972f-462e-b6b9-c7336763c23f)
+> 🛟 Here is a [curated list of our recommended tutorials](https://4geeks.com/lesson/learnpack-tutorial-database).
 
-2. Presionar **Code** y luego **Create codespace on master**
+Each tutorial is a separate GitHub repository. Go to the GitHub repository website and read the README file to understand what the tutorial is about, you may find an `exercises` or .learn/exercises` with all the steps and instructions you will be given through the tutorial. We also have [this curate list of tutorials from 4Geeks Academy](https://4geeks.com/interactive-coding-tutorials) with a UI/UX that makes it a lot easier to pick.
 
+## Run the tutorial
+
+The easiest way to run a LearnPack tutorial is to initiate it using our [click-and-learn bridge](https://s.4geeks.com/start), if you will like to do it yourself (without any magic) read the following guide:
+
+## How to open any LearnPack tutorial in the cloud (recommended)
+
+> 🛟 Skip this section if you want to run locally on your computer
+
+For this explanation, we picked the [Looping with Javascript](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) tutorial.
+
+### Opening on Github Codespaces
+
+1. Open in Codespaces by clicking the repository **Code** button and then **Create codespace on master**
 ![Create Codespace](https://github.com/learnpack/docs/assets/107764250/982084dd-0053-4ab0-b6b8-d3b2c2037fc5)
-
-4. Cuando el Codespace termine de cargar, ¡está listo!
-Ahora solo debes empezar a leer las instrucciones y realizar los ejercicios.
+2. When the Codespace finishes loading, it's ready!
+3. Now you just have to start reading the instructions and doing the exercises.
 ![image](https://github.com/learnpack/docs/assets/107764250/d58a3831-b18a-4799-88be-75e9ed293254)
 
-**Nota**: El proceso para hacerlo con Gitpod es similar. Tan solo debes tener la extensión de Gitpod instalada y te aparecerá un botón que dice **open**.
-![Open with Gitpod](https://github.com/learnpack/docs/assets/107764250/366b2185-db53-4781-b304-b0b00cf635e3)
+### Opening on Gitpod
 
+1. Type the following URL on your browser:
 
-## Cómo usar LearnPack en local
+```url
+https://gitpod.io/#<tutorial repository url>
+```
 
-Para usar LearnPack en local tendrás que tener instalado Node > 18.
+Please note that `<tutorial repository url>` needs to be replaced with the github repository URL of the tutorial you want to open, for example: 
 
-Puedes instalar la última versión desde [acá](https://nodejs.org/en/download)
+```url
+https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial
+```
 
-1. Instala **LearnPack** con npm:
-```node
+> 🛟 Alternatively You can use the [Gitpod expension](https://www.gitpod.io/docs/configure/user-settings/browser-extension) that makes the process very similar to Codespaces by adding a button [like this](https://github.com/learnpack/docs/assets/107764250/366b2185-db53-4781-b304-b0b00cf635e3) into the repository website.
+
+## How to download and run LearnPack tutorial in your local computer
+
+To use LearnPack locally, you must install Node v20 (or more) and you may also have to install other things depending on the particular tutorial needs.
+
+> 🛟 We recommend to install Node using NVM, here is a guide on [how to install NVM on your computer](https://4geeks.com/how-to/install-nvm-on-every-operating-system).
+
+1. Once Node.js is installed, the next step is to install **LearnPack** using npm:
+
+```bash
 npm i -g @learnpack/learnpack
 ```
 
-2. Clona un repositorio de LearnPack
-![Clone url](https://github.com/learnpack/docs/assets/107764250/663ee978-fc66-4f8d-9788-3b9f1934ac5a)
-Abre la terminal y corre el comando git clone. Ejemplo con el tutorial de Javascript:
-```git
+2. Clone a LearnPack repository
+
+Open the terminal and run the git clone command with your repository URL. For example, with the Javascript tutorial:
+
+```bash
 git clone https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial.git
 ```
 
-3. Entra al nuevo directorio
-Se creará un directorio con el nombre del tutorial, entra en él con el comando cd:
-```cmd
+3. Enter the new recently created directory
+
+A directory with the name of the tutorial will be created; enter it with the cd command:
+
+```bash
 cd javascript-arrays-exercises-tutorial
 ```
 
-4. Ejecuta LearnPack
-Cuando instalaste LearnPack globalmente, se agregó una nueva opción a los comandos de tu computadora, ahora puedes ejecutar:
-```learnpack
+4. Start executing LearnPack
+   
+When you installed LearnPack globally, a new option was added to your computer's commands, now you can execute:
+
+```bash
 learnpack start
 ```
-En el directorio de un tutorial de LearnPack, y listo.
 
-**Nota**: En caso de que LearnPack detecte que se necesitan plugins que no están instalados para el tutorial que estás haciendo, LearnPack los instalará por ti. Luego solo vuelve a iniciar con **learnpack start**
+In the directory of a LearnPack tutorial, and you're done.
+
+**Note**: If LearnPack detects that not installed plugins are needed for your tutorial, LearnPack will install them. Then just restart with **learnpack start**
 ![Needed plugins](https://github.com/learnpack/docs/assets/107764250/952ba5f4-5a7f-424e-8dfc-856f17f7a4b5)
 
-### Usar LearnPack en local con VSCode
+### Use LearnPack locally with VSCode
 
-También si tienes VSCode en tu computadora, [instala la extensión de Learnpack](https://marketplace.visualstudio.com/items?itemName=learn-pack.learnpack-vscode). Una vez que estés dentro de un tutorial de LearnPack en VSCode, si es la primera vez que inicias, la extensión de LearnPack ejecutará **learnpack start** por ti.
-
-[//]: # (Corrected mispellings and returned the document in markdown format as requested.)
+Also, if you have VSCode on your computer, [install the Learnpack extension](https://marketplace.visualstudio.com/items?itemName=learn-pack.learnpack-vscode). Once you are inside a LearnPack tutorial in VSCode, if it is the first time you start, the LearnPack extension will execute **learnpack start** for you.
