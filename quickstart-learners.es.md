@@ -1,7 +1,8 @@
 ---
-title: 'Inicio Rápido: Cómo instalar y comenzar con los tutoriales de LearnPack'
-description: "¡Inicia tu viaje de codificación con LearnPack! Accede fácilmente a los tutoriales a través de Codespaces, Gitpod o localmente con guías detalladas."
+title: 'Paso a paso: Cómo instalar y comenzar con los tutoriales de LearnPack'
+description: "¡Inicia tu viaje de codificación paso a paso con LearnPack! Accede fácilmente a los tutoriales a través de Codespaces, Gitpod o localmente con guías detalladas."
 tags: ['learnpack']
+
 ---
 
 # Comienza a Aprender con LearnPack
