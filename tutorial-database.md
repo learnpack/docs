@@ -1,13 +1,14 @@
 ---
+title: 'Curate list of LearnPack tutorials'
+description: 'Curate list of LearnPack tutorials to learn code, python, pandas, node, front-end, back-end, python and many other technologies.'
 tags: ['learnpack']
 
 ---
 
-# Available Interactive Tutorials
 
 All courses and tutorials are 👆 interactive, ✅ auto-graded, and with 📹 video solutions. You can build your tutorials by [following our documentation](https://4geeks.com/docs/learnpack/learnpack-quick-start).
 
-### HTML/CSS & The DOM
+## HTML/CSS & The DOM
 
 - [Build a postcard using HTML/CSS (2 hrs)](https://github.com/breatheco-de/exercise-postcard)
 - [Learn HTML (8 hrs)](https://github.com/4GeeksAcademy/html-tutorial-exercises-course)
@@ -18,18 +19,24 @@ All courses and tutorials are 👆 interactive, ✅ auto-graded, and with 📹 v
 - [Introduction to The DOM (6 hrs)](https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises)
 - [Events inside The DOM (5 hrs)](https://github.com/4GeeksAcademy/javascript-events-tutorial-exercises)
 
-### Javascript & React
+## Javascript and Node
 
 - [Javascript for Beginners (8 hrs)](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial)
 - [Looping with Javascript (8 hrs)](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial)
 - [Javascript Functions (2 hrs)](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial)
 - [Object Oriented Programming is Javascript](https://github.com/4GeeksAcademy/object-oriented-javascript-tutorial-exercises)
 - [Master Javascript with 150 exercises (50 hrs)](https://github.com/4GeeksAcademy/master-javascript-programming-exercises)
-- [Learn React.js (3 hrs)](https://github.com/4GeeksAcademy/react-tutorial-exercises)
-- [Unit testing with Jest (2 hrs)](https://github.com/breatheco-de/exercise-unit-test-with-jest)
-- [Build API's with Node Express](https://github.com/4GeeksAcademy/node-api-tutorial)
 
-### Python 
+## Componente Frameworks
+
+- [Learn React.js (3 hrs)](https://github.com/4GeeksAcademy/react-tutorial-exercises)
+
+## Back-end with Node
+
+- [Build API's with Node Express](https://github.com/4GeeksAcademy/node-api-tutorial)
+- [Unit testing with Jest (2 hrs)](https://github.com/breatheco-de/exercise-unit-test-with-jest)
+
+### Back-end with Python 
 
 - [Python for Beginners (20 hrs)](https://github.com/4GeeksAcademy/python-beginner-programming-exercises)
 - [Practice Looping Lists and Tuples (30 hrs)](https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises)
@@ -40,17 +47,9 @@ All courses and tutorials are 👆 interactive, ✅ auto-graded, and with 📹 v
 - [Introducion to pandas](https://github.com/4GeeksAcademy/python-pandas-tutorial)
 - [Introduction to Numpy (under development](https://github.com/4GeeksAcademy/numpy-100)
 
-### Databases
-
-- [Learn SQL (4hr)](https://sqlbolt.com/lesson/select_queries_introduction)
-
 ### Java (under development) 
 
 - [Java for Beginners (8 hrs)](https://github.com/4GeeksAcademy/java-beginner-exercises)
-
-### Coding Tools
-
-- [Git Interative Tutorial (4 hrs)](https://github.com/4GeeksAcademy/git-interactive-tutorial)
 
 ## What next? 
 
