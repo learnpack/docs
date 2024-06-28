@@ -1,6 +1,6 @@
 ---
 description: "Kickstart your coding journey with LearnPack! Easily access tutorials via Codespaces, Gitpod, or locally with detailed guides."
-
+tags: ['learnpack']
 ---
 
 # Start Learning with LearnPack
@@ -23,7 +23,7 @@ The easiest way to run a LearnPack tutorial is to initiate it using our [click-a
 
 > 🛟 Skip this section if you want to run locally on your computer
 
-For this explanation we picked the [Looping with Javascript](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) tutorial.
+For this explanation, we picked the [Looping with Javascript](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) tutorial.
 
 ### Opening on Github Codespaces
 
