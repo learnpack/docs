@@ -20,11 +20,11 @@ Each tutorial is a separate GitHub repository. Go to the GitHub repository websi
 
 The easiest way to run a LearnPack tutorial is to initiate it using our [click-and-learn bridge](https://s.4geeks.com/start), if you will like to do it yourself (without any magic) read the following guide:
 
-## How to open any LearnPack tutorial in the cloud (recommended)
+## How to open any LearnPack tutorial in the cloud
 
 > 🛟 Skip this section if you want to run locally on your computer
 
-For this explanation, we picked the [Looping with Javascript](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) tutorial.
+We picked the [Looping with Javascript](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) tutorial for this explanation.
 
 ### Opening on Github Codespaces
 
