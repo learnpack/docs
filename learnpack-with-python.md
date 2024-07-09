@@ -6,7 +6,7 @@ In addition, the main file should be named `app.py`, and the file for the tests,
 
 ### Unit Testing
 
-For testing, you should install [pytest](https://docs.pytest.org/en/7.1.x/contents.html) with the version "4.6.0", pytest-testdox and mock. You can install them by running the following command: `pip3 install pytest==4.6.0 pytest-testdox mock`
+For testing, you should install [pytest](https://docs.pytest.org/en/7.1.x/contents.html) with the version "4.6.0", pytest-testdox and mock. You can install them by running the following command: `pip3 install pytest==6.2.5 pytest-testdox mock`
 
 If you are not so familiar with `Pytest`, here are the most common tests that you will use when testing a Python exercise tutorial:
 
