@@ -1,5 +1,8 @@
 ---
+title: "Create your first learnpack tutorial"
 description: "Explore interactive tutorial creation with LearnPack. Install globally, initiate projects, and customize exercises."
+technologies: ["learnpack"]
+
 ---
 
 # Getting Started with LearnPack as a Creator
