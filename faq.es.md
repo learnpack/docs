@@ -1,4 +1,9 @@
-# Soluciones y preguntas frecuentas
+---
+tags: ["learnpack"] 
+title: "Soluciones y preguntas frecuentes"
+---
+
+# Soluciones y preguntas frecuentes
 LearnPack es un producto en el que se han invertido muchas horas de trabajo, es por eso que para tener una mejor experiencia de usuario, aquí están recopiladas algunas de las preguntas más frecuentas sobre la interfaz y errores comunes.
 
 ## Preguntas frecuentes

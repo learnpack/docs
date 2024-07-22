@@ -1,4 +1,8 @@
-# Solutions and Frequently Asked Questions
+---
+tags: ["learnpack"] 
+title: "Solutions and Frequently Asked Questions"
+---
+
 LearnPack is a product that has had many hours of work invested in it, so to have a better user experience, here are some of the most frequently asked questions about the interface and common errors.
 
 ## Frequently Asked Questions
