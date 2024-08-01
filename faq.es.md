@@ -20,12 +20,30 @@ Si tienes instalada la [extensión de LearnPack](https://marketplace.visualstudi
   3. Selecciona la opción `LearnPack: Open Instructions`
 
 
+
 ### No veo la terminal
 Para abrir la terminal generalmente puedes hacer cualquiera de las siguientes:
 
 1. Usar el atajo de teclado `Ctrl` + `J` en tu editor de código
 2. Usar el atajo de teclado `Ctrl` + ` (backtick) en tu editor
 3. **Comando Rápido**: Presiona `Ctrl` + `Shift` + `P` para abrir la paleta de comandos, luego escribe `Terminal: Crear nueva terminal` y selecciona la opción.
+
+### ¿Cómo abrir una segunda terminal?
+Si estás usando VSCode, puedes abrir una segunda terminal de las siguientes maneras:
+
+1. **Usando el menú**:
+   - Ve a la barra de menú y selecciona `Terminal`.
+   - Luego selecciona `Nueva Terminal`.
+
+2. **Usando atajos de teclado**:
+   - Presiona `Ctrl` + `Shift` + ` (backtick) para abrir una nueva terminal.
+
+3. **Usando la paleta de comandos**:
+   - Presiona `F1` o `Ctrl` + `Shift` + `P` para abrir la paleta de comandos.
+   - Escribe `Terminal: Crear nueva terminal` y selecciona la opción.
+
+Estas opciones te permitirán abrir una segunda terminal en tu editor de código VSCode.
+
 
 
 ### ¡Conexión perdida!

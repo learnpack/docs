@@ -27,6 +27,21 @@ To open the terminal, you can generally do any of the following:
 2. Use the keyboard shortcut `Ctrl` + ` (backtick) in your editor
 3. **Quick Command**: Press `Ctrl` + `Shift` + `P` to open the command palette, then type `Terminal: Create New Terminal` and select the option.
 
+### How to open a second terminal?
+If you are using VSCode, you can open a second terminal in the following ways:
+
+1. **Using the menu**:
+   - Go to the menu bar and select `Terminal`.
+   - Then select `New Terminal`.
+
+2. **Using keyboard shortcuts**:
+   - Press `Ctrl` + `Shift` + ` (backtick)` to open a new terminal.
+
+3. **Using the command palette**:
+   - Press `F1` or `Ctrl` + `Shift` + `P` to open the command palette.
+   - Type `Terminal: Create New Terminal` and select the option.
+
+These options will allow you to open a second terminal in your VSCode editor.
 
 ### Connection lost!
 The connection lost error occurs when the LearnPack interface cannot communicate with the LearnPack server running on your machine. To resolve it, you should ensure that LearnPack is running in a terminal.
