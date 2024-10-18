@@ -78,8 +78,20 @@ The `learn.json` file is where all the configurations from the teacher should be
 
 *   `bugs`: Add a link where the learners can report bugs found in your tutorial.
     
-*   `webpackTemplate`: It will allow creators to have their own webpack template.
-     
+*   `webpackTemplate`: It will allow creators to have their Webpack template.
+
+*   `delivery`: It allows for enforcing a specific delivery method for learners to use when delivering the completed tutorial solution. For example:
+
+```json
+"delivery": {
+	"instructions": {
+		"us": "Pase the URL of the Google Sheets template with the different strategies discussed during the game",
+		"es": "Agrega el URL al document de Google Sheets con las diferentes strategies discutidas"
+	},
+	"formats": ["url"],
+	"regex": "https://docs.google.com/"
+}
+```
 
 ## Compiler Plugins
 
