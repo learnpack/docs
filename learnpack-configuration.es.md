@@ -65,6 +65,19 @@ El archivo `learn.json` es donde se establecen todas las configuraciones del ins
 
 * `webpackTemplate`: Permitirá a los creadores tener su propia plantilla de webpack.
 
+* `delivery`: Permite imponer un método de entrega específico que los estudiantes deben usar al entregar la solución del tutorial completado. Por ejemplo:
+
+```json
+"delivery": {
+	"instructions": {
+		"us": "Pase the URL of the Google Sheets template with the different strategies discussed during the game",
+		"es": "Agrega el URL al document de Google Sheets con las diferentes strategies discutidas"
+	},
+	"formats": ["url"],
+	"regex": "https://docs.google.com/"
+}
+```
+
 ### Plugins de Compilador
 
 LearnPack tiene algunos plugins que te permiten compilar y probar tutoriales en diferentes lenguajes. Los lenguajes cubiertos por LearnPack hasta ahora son: python, javascript, html, css, dom, react.
