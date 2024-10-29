@@ -37,7 +37,7 @@ Más allá de la evidente ayuda que representa la inteligencia artificial, explo
 La idea de tener un mentor es servir como guía para que el estudiante encuentre la respuesta por su cuenta. El mentor de LearnPack tiene conocimiento del código y las modificaciones que haces, posee memoria de las últimas 4 interacciones y te responderá en el idioma de tu preferencia. Puedes pedirle que te explique algo de la forma en que sea más fácil para ti.
 ![Rigobot don't give answer](image.png)
 
-![Rigobot don't give answer 2](image-1.png)
+![Rigobot don't give answer 2](https://raw.githubusercontent.com/learnpack/docs/373d979448fdb782ea499e8f8c19caae2730759d/assets/rigo-socratic.png)
 
 Esto trae como beneficio que tengas que repasar constántemente conceptos y asociándolos al código que estás escribiendo.
 
