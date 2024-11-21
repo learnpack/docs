@@ -1,7 +1,7 @@
 ---
 title: "Configure a LearnPack package to ask for delivery"
 tags: ["learnpack"]
-description: "LearnPack Telemetry enhances user experience by tracking interactions and performance metrics, stored locally for improvement analysis."
+description: "LearnPack allows configuring project delivery as no delivery, file uploads (via MIME types), or URL submissions (validated by regex). Examples include PDFs, Word files, GitHub links, or Google Docs URLs."
 
 ---
 
