@@ -1,6 +1,13 @@
+---
+title: "Configure a LearnPack package to ask for delivery"
+tags: ["learnpack"]
+description: "LearnPack Telemetry enhances user experience by tracking interactions and performance metrics, stored locally for improvement analysis."
+
+---
+
 # Configure LearnPack for delivering the package as a project
 
-One of LearnPack's most popular features is the ability to ask students to deliver the package as homework. Here is you can configure a package for allowing or not allowing delivery.
+One of LearnPack's most popular features is the ability to ask students to deliver the package as homework. Here, you can configure a package to allow or not allow delivery.
 
 ## Projects with no delivery
 
@@ -14,11 +21,21 @@ One of LearnPack's most popular features is the ability to ask students to deliv
 
 ## Deliver a file
 
-Before setting up your learn.json you first have to know which mime types the learners will be able to upload in order to successfully deliver the project. If you have a sample file, I recommend you upload it to [mimetyp.io](https://mimetype.io/) to retrive the very specific string you need to use a mime type.
+Before setting up your `learn.json`, you must know which mime types the learners will be able to upload to deliver the project successfully. If you have a sample file, I recommend you upload it to [mimetyp.io](https://mimetype.io/). To retrieve the particular string, you need to use a mime type.
 
 ![how to get mime types](https://github.com/learnpack/docs/blob/main/assets/mime-type.png?raw=true)
 
-Once you get the mime type you have 
+Once you get the mime type, you have to specify it under the delivery.formats array like this:
+
+```json filename="learn.json"
+{
+	"delivery": {
+		"formats": ["application/pdf"]
+	}
+}
+```
+
+The following are a few examples of different mime types:
 
 ### PDF file
 
@@ -36,7 +53,7 @@ Once you get the mime type you have
 
 ### Text file with multiple mime possibilities
 
-Sometimes, we want to allow for multiple file types; for example, in this case, the learner can upload a file from MS Word or PDF.
+Sometimes, we want to allow multiple file types; in this case, the learner can upload a file from MS Word or PDF.
 
 ```json filename="learn.json"
 {
@@ -52,7 +69,7 @@ Sometimes, we want to allow for multiple file types; for example, in this case, 
 
 ## Ask students to deliver a link
 
-The default format to deliver a project using LearnPack is by specifying a github repository url link with the following structure:
+The default format to deliver a project using LearnPack is by specifying a github repository URL link with the following structure:
 
 ```url
 https://github.com/<githun_username>/<github_repository>
@@ -60,7 +77,7 @@ https://github.com/<githun_username>/<github_repository>
 
 But you can override that behavior by specifying a `regex` string like this:
 
-```json
+```json filename="learn.json"
 {
     "delivery": {
   		"formats": ["url"],
@@ -69,7 +86,7 @@ But you can override that behavior by specifying a `regex` string like this:
 }
 ```
 
-The following is a list of examples of different regex to allow different URL formats.
+The following is a list of examples of different regex for different URL formats.
 
 ### URL from docs.google.com
 
@@ -88,7 +105,7 @@ The following is a list of examples of different regex to allow different URL fo
 
 ### URL from anywhere
 
-Leave the `regex` key with `https://` only and 4Geeks.com will make sure that the student is specifying a URL from anywere online.
+Leave the `regex` key with `https://` only, and 4Geeks.com will ensure that the student specifies a URL from anywhere online.
 
 ```json filename="learn.json"
 {
