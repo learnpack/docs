@@ -67,6 +67,24 @@ A veces, queremos permitir múltiples tipos de archivo; en este caso, el estudia
 }
 ```
 
+### Archivos con mime-type desconocido
+
+Algunos archivos de redes como los archivos de Packet Tracer `.pka` no tienen un tipo mime reconocido. En ese caso, debes usar `application/octet-stream` seguido por la extensión del archivo, como este ejemplo:
+
+> ⚠️ Toma en cuenta que esto es un último recurso; recomendamos encarecidamente utilizar siempre el tipo mime cuando sea posible.
+
+```json filename="learn.json"
+{
+    "delivery": {
+		"instructions": {
+			"en": "Please attach your finished pka file and upload it here",
+			"es": "Por favor adjunta tu archivo pka listo y cárgalo aquí"
+		},
+		"formats": ["application/octet-stream,.pka"]
+	}
+}
+```
+
 ## Solicitar a los estudiantes entregar un enlace
 
 El formato predeterminado para entregar un proyecto usando LearnPack es especificando un enlace de un repositorio de GitHub con la siguiente estructura:
