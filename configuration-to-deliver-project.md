@@ -67,6 +67,24 @@ Sometimes, we want to allow multiple file types; in this case, the learner can u
 }
 ```
 
+### Files with unknown mime type
+
+Some rate files like Packet Tracer `.pka` files don't have a recognized mime type, in that case, you have to use `application/octet-stream` followed by the file extension like this:
+
+> ⚠️ Please note this is a last resort; we strongly recommend always using the mime-type when possible.
+
+```json filename="learn.json"
+{
+    "delivery": {
+		"instructions": {
+			"en": "Please attach your finished pka file and upload it here",
+			"es": "Por favor adjunta tu archivo pka listo y cárgalo aquí"
+		},
+		"formats": ["application/octet-stream,.pka"]
+	}
+}
+```
+
 ## Ask students to deliver a link
 
 The default format to deliver a project using LearnPack is by specifying a github repository URL link with the following structure:
