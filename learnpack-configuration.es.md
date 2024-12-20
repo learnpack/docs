@@ -1,7 +1,6 @@
 ---
 tags: ["LearnPack"]
 authors: ["Charlytoc"]
-
 ---
 
 # Configuración de LearnPack
@@ -10,48 +9,84 @@ authors: ["Charlytoc"]
 
 El archivo `learn.json` es donde se establecen todas las configuraciones del instructor. Estas son las propiedades que puedes cambiar en la configuración:
 
-* `port`: El puerto donde se alojarán las instrucciones. (Por defecto: 3000).
+- `port`: El puerto donde se alojarán las instrucciones. (Por defecto: 3000).
 
-* `editor`: El editor será el objeto con todas las opciones del editor, que son las siguientes:
-    * `mode`: El modo puede ser `extension` (cuando se usa el complemento de vscode) o `preview` (cuando se trabaja localmente sin vscode).
-    * `agent`: El agente es donde se mostrarán las instrucciones, puede ser `vscode`, `os`.
-    * `version`: Esto está relacionado con la versión de la interfaz de usuario, por defecto, se usará la versión más nueva de la interfaz de usuario, de todos modos, puedes usar una versión anterior.
+- `authentication`: Es un objeto que contiene las opciones de autenticación. Tiene las siguientes propiedades:
 
-* `dirPath`: La ruta al directorio de configuración, por defecto este directorio se llamará “.learn” y estará ubicado en la raíz del proyecto.
+  - `mandatory`: Este es un booleano que indica si la autenticación es obligatoria. Si es así, el usuario no podrá iniciar el tutorial sin iniciar sesión.
 
-* `configPath`: La ruta al archivo de configuración, este archivo se llamará learn.json por defecto.
+  Ejemplo:
 
-* `outputPath`: La ruta a la carpeta donde se ubicará la salida de los ejercicios. Será `.learn/dist` por defecto.
+  ```json
+  "authentication": {
+  	"mandatory": true
+  }
+  ```
 
-* `publicPath`: La ruta del dominio donde se alojará el resultado. Su valor será `/preview` por defecto.
+- `assessment`: Es un objeto que contiene las opciones de evaluación. Tiene las siguientes propiedades:
 
-* `publicUrl`: La URL donde se alojarán las instrucciones, su valor depende del agente que estés usando.
+  - `maxQuizRetries`: Este es un número que indica la cantidad máxima de veces que un usuario puede reintentar un cuestionario. Por defecto, esto está configurado en 3.
 
-* `language`: El lenguaje de programación utilizado en el tutorial. Se puede configurar en auto si estás usando varios lenguajes de programación, LearnPack detectará automáticamente el lenguaje.
+  Ejemplo:
 
-* `grading`: El modo de calificación del tutorial. Puedes ver más sobre los modos de calificación aquí: [Modos de Calificación](/grading-tutorials).
+  ```json
+  "assessment": {
+  	"maxQuizRetries": 3
+  }
+  ```
 
-* `exercisesPath`: La ruta a la carpeta donde se encuentran los ejercicios. Podrían estar ubicados en la raíz del proyecto.
+- `editor`: El editor será el objeto con todas las opciones del editor, que son las siguientes:
 
-* `disabledActions`: Será un arreglo con las acciones que te gustaría deshabilitar, es decir: Puedes deshabilitar la opción de tener una prueba en tu tutorial mientras arreglas un error. Puedes deshabilitar las siguientes acciones: Build, Reset, Test y Tutorial.
+  - `mode`: El modo puede ser `extension` (cuando se usa el complemento de vscode) o `preview` (cuando se trabaja localmente sin vscode).
+  - `agent`: El agente es donde se mostrarán las instrucciones, puede ser `vscode`, `os`.
+  - `version`: Esto está relacionado con la versión de la interfaz de usuario, por defecto, se usará la versión más nueva de la interfaz de usuario, de todos modos, puedes usar una versión anterior. La última versión de LearnPack es 5.0 (es suficiente usar los dos primeros números de una versión, LearnPack usará la última 5.0.x versión).
 
-* `slug`: El nombre del tutorial. Se crea automáticamente cuando creas el tutorial, pero también puedes cambiarlo más tarde.
+  Example:
 
-* `title`: El título del tutorial.
+  ```json
+  "editor": {
+  	"mode": "extension", // or "preview"
+  	"agent": "vscode", // or "os"
+  	"version": "5.0"
+  }
+  ```
 
-* `preview`: Es una URL de imagen que se puede usar para la introducción de tus ejercicios.
+- `dirPath`: La ruta al directorio de configuración, por defecto este directorio se llamará “.learn” y estará ubicado en la raíz del proyecto.
 
-* `repository`: El enlace donde se aloja el repositorio del tutorial.
+- `configPath`: La ruta al archivo de configuración, este archivo se llamará learn.json por defecto.
 
-* `description`: La descripción del tutorial.
+- `outputPath`: La ruta a la carpeta donde se ubicará la salida de los ejercicios. Será `.learn/dist` por defecto.
 
-* `duration`: El tiempo estimado que debería llevarte terminar el tutorial.
+- `publicPath`: La ruta del dominio donde se alojará el resultado. Su valor será `/preview` por defecto.
 
-* `difficulty`: La dificultad del tutorial.
+- `publicUrl`: La URL donde se alojarán las instrucciones, su valor depende del agente que estés usando.
 
-* `autoStart`: Te permitirá decidir si LearnPack debería comenzar automáticamente al abrir el repositorio en vscode.
+- `language`: El lenguaje de programación utilizado en el tutorial. Se puede configurar en auto si estás usando varios lenguajes de programación, LearnPack detectará automáticamente el lenguaje.
 
-* `video`: Un objeto que contiene una propiedad `intro`, que es un objeto que tiene como claves los idiomas y como valores una URL para un video introductorio del tutorial en cada idioma que desees. Por ejemplo:
+- `grading`: El modo de calificación del tutorial. Puedes ver más sobre los modos de calificación aquí: [Modos de Calificación](/grading-tutorials).
+
+- `exercisesPath`: La ruta a la carpeta donde se encuentran los ejercicios. Podrían estar ubicados en la raíz del proyecto.
+
+- `disabledActions`: Será un arreglo con las acciones que te gustaría deshabilitar, es decir: Puedes deshabilitar la opción de tener una prueba en tu tutorial mientras arreglas un error. Puedes deshabilitar las siguientes acciones: Build, Reset, Test y Tutorial.
+
+- `slug`: El nombre del tutorial. Se crea automáticamente cuando creas el tutorial, pero también puedes cambiarlo más tarde.
+
+- `title`: El título del tutorial.
+
+- `preview`: Es una URL de imagen que se puede usar para la introducción de tus ejercicios.
+
+- `repository`: El enlace donde se aloja el repositorio del tutorial.
+
+- `description`: La descripción del tutorial.
+
+- `duration`: El tiempo estimado que debería llevarte terminar el tutorial.
+
+- `difficulty`: La dificultad del tutorial.
+
+- `autoStart`: Te permitirá decidir si LearnPack debería comenzar automáticamente al abrir el repositorio en vscode.
+
+- `video`: Un objeto que contiene una propiedad `intro`, que es un objeto que tiene como claves los idiomas y como valores una URL para un video introductorio del tutorial en cada idioma que desees. Por ejemplo:
+
   ```json
   "video": {
       "intro": {
@@ -61,11 +96,11 @@ El archivo `learn.json` es donde se establecen todas las configuraciones del ins
   }
   ```
 
-* `bugs`: Añade un enlace donde los alumnos pueden reportar errores encontrados en tu tutorial.
+- `bugs`: Añade un enlace donde los alumnos pueden reportar errores encontrados en tu tutorial.
 
-* `webpackTemplate`: Permitirá a los creadores tener su propia plantilla de webpack.
+- `webpackTemplate`: Permitirá a los creadores tener su propia plantilla de webpack.
 
-* `delivery`: Permite imponer un método de entrega específico que los estudiantes deben usar al entregar la solución del tutorial completado. Por ejemplo:
+- `delivery`: Permite imponer un método de entrega específico que los estudiantes deben usar al entregar la solución del tutorial completado. Por ejemplo:
 
 ```json
 "delivery": {
@@ -84,11 +119,11 @@ LearnPack tiene algunos plugins que te permiten compilar y probar tutoriales en 
 
 Estos son los plugins para los lenguajes mencionados:
 
-* `@learnpack/html`
-* `@learnpack/node`
-* `@learnpack/python`
-* `@learnpack/dom`
-* `@learnpack/react`
+- `@learnpack/html`
+- `@learnpack/node`
+- `@learnpack/python`
+- `@learnpack/dom`
+- `@learnpack/react`
 
 PS: Cuando uses uno de estos lenguajes con LearnPack, tienes que instalar el plugin correspondiente para compilar y probar los ejercicios. Así es como instalas los plugins:
 
@@ -121,22 +156,23 @@ Al aprovechar Codespaces, los usuarios pueden disfrutar de un entorno de desarro
 Esta es un ejemplo de configuración de codespaces:
 
 .devcontainer/devcontainers.json
+
 ```json
 {
-	"name": "Node.js",
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
-	"customizations": {
-		"vscode": {
-			"settings": {
-				"editor.defaultFormatter": "esbenp.prettier-vscode",
-				"workbench.editorAssociations": {   
-					"*.md": "vscode.markdown.preview.editor"
-				}
-			},
-			"extensions": ["learn-pack.learnpack-vscode"]
-		}
-	},
+  "name": "Node.js",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "workbench.editorAssociations": {
+          "*.md": "vscode.markdown.preview.editor"
+        }
+      },
+      "extensions": ["learn-pack.learnpack-vscode"]
+    }
+  },
 
-	"onCreateCommand": "npm i jest@24.8.0 -g && npm i @learnpack/learnpack@2.1.39 -g && learnpack plugins:install @learnpack/node@1.1.5 && learnpack plugins:install @learnpack/html@1.1.2"
+  "onCreateCommand": "npm i jest@24.8.0 -g && npm i @learnpack/learnpack@2.1.39 -g && learnpack plugins:install @learnpack/node@1.1.5 && learnpack plugins:install @learnpack/html@1.1.2"
 }
 ```

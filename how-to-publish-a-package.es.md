@@ -18,7 +18,7 @@ LearnPack ha evolucionado. Ahora puedes publicar tus paquetes en la nube, para q
 
 2. Verifica que tienes la última versión de LearnPack instalada ejecutando `learnpack --version` en tu terminal. Todas las versiones superiores a la 4.0.17 son compatibles. Si no tienes la última versión, puedes actualizar LearnPack ejecutando `npm i -g @learnpack/learnpack`.
 
-3. Revisa el archivo `learn.json` para asegurarte de que la `editor.version` tenga una versión igual o superior a _4.3.0_. Esto asegurará que tu paquete sea compatible con el último editor de LearnPack, incluyendo las nuevas características y mejoras como **Iniciar sesión con GitHub**, **Gestión de sesiones** y el nuevo **Modo oscuro**.
+3. Revisa el archivo `learn.json` para asegurarte de que la `editor.version` tenga una versión igual o superior a _5.0_. Esto asegurará que tu paquete sea compatible con el último editor de LearnPack, incluyendo las nuevas características y mejoras como **Iniciar sesión con GitHub**, **Gestión de sesiones** y el nuevo **Modo oscuro**.
    ![learnpack-editor learn.json](https://raw.githubusercontent.com/learnpack/docs/373d979448fdb782ea499e8f8c19caae2730759d/assets/learnpack-editor.png)
 4. Ejecuta `learnpack publish` en tu terminal.
 

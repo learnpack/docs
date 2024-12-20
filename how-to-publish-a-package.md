@@ -18,7 +18,7 @@ LearnPack has evolved. Now you can publish your packages in the cloud, so use ca
 
 2. Check that you have the latest version of LearnPack installed by running `learnpack --version` in your terminal. All versions above the 4.0.17 are supported. If you don't have the latest version, you can update LearnPack by running `npm i -g @learnpack/learnpack`.
 
-3. Check the `learn.json` file to ensure that the `editor.version` has a version equal or higher than _4.3.0_. This will ensure that your package is compatible with the latest LearnPack editor, including the new features and improvements such as **Login with GitHub**, **Session Management** and new **Dark Mode**.
+3. Check the `learn.json` file to ensure that the `editor.version` has a version equal or higher than _5.0_. This will ensure that your package is compatible with the latest LearnPack editor, including the new features and improvements such as **Login with GitHub**, **Session Management** and new **Dark Mode**.
    ![learnpack-editor learn.json](https://raw.githubusercontent.com/learnpack/docs/373d979448fdb782ea499e8f8c19caae2730759d/assets/learnpack-editor.png)
 4. Run `learnpack publish` in your terminal.
 
