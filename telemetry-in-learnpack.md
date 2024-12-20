@@ -1,7 +1,9 @@
 ---
+title: "How LearnPack Telemetry works"
+tags: ["learnpack"]
 description: "LearnPack Telemetry enhances user experience by tracking interactions and performance metrics, stored locally for improvement analysis."
----
 
+---
 
 # How LearnPack Telemetry works?
 

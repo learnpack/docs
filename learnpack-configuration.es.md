@@ -83,6 +83,9 @@ El archivo `learn.json` es donde se establecen todas las configuraciones del ins
 
 - `difficulty`: La dificultad del tutorial.
 
+* `autoPlay`: Te permitirá decidir si LearnPack debería comenzar automáticamente al abrir el repositorio en vscode.
+
+* `projectType`: Puede ser `tutorial` o `project`. Usa el valor `tutorial` cuando sepas que learnpack debe ser interactivo con next.
 - `autoStart`: Te permitirá decidir si LearnPack debería comenzar automáticamente al abrir el repositorio en vscode.
 
 - `video`: Un objeto que contiene una propiedad `intro`, que es un objeto que tiene como claves los idiomas y como valores una URL para un video introductorio del tutorial en cada idioma que desees. Por ejemplo:
