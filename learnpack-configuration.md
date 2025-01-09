@@ -92,15 +92,11 @@ The `learn.json` file is where all the configurations from the teacher should be
 
 - `duration`: The estimated time that it should take you to finish the tutorial.
 
-- `difficulty`: The difficulty of the tutorial.
+- `difficulty`: The difficulty of the tutorial. It can be one of ['easy', 'beginner', 'intermediate', 'hard']
 
-*   `difficulty`: The difficulty of the tutorial.
-    
+-   `projectType`: It can be `tutorial` or `project`. Interactive packages are "tutorials".
 
-*   `autoPlay`: It will allow you to decide if LearnPack should start automatically when opening the repository at vscode.
-
-*   `projectType`: It can be `tutorial` or `project`. Interactive packages are "tutorials".
-- `autoStart`: It will allow you to decide if LearnPack should start automatically when opening the repository at vscode.
+- `autoPlay`: It will allow you to decide if LearnPack should start automatically when opening the repository at vscode.
 
 - `video`: An object containing a property `intro`, that is an object that has as keys languages and as values an url for an intro video for the tutorial in each language you want. For example:
 
