@@ -57,7 +57,6 @@ The `learn.json` file is where all the configurations from the teacher should be
 
 - `publicUrl`: The URL where the instructions will be hosted, its value depends on the agent that you are using.
 
-- `language`: The programming language used in the tutorial. It could be set to auto if you are using many programming languages, LearnPack will auto-detect the language.
 - `grading`: The grading mode of the tutorial. You can see more about grading modes here: [Grading Modes](/grading-tutorials)​
 
 - `exercisesPath`: The path to the folder where the exercises are located. They could be located at the root of the project.
@@ -66,12 +65,27 @@ The `learn.json` file is where all the configurations from the teacher should be
 
 - `slug`: The name of the tutorial. It is automatically created when you create the tutorial, but you can also change it later.
 
-- `title`: The title of the tutorial.
+- `title`: The title of the tutorial. We strongly recommend using SEO-friendly keywords and a very descriptive title. The learner should know what the tutorial is about by reading the title.
+
+```json
+"title": {
+    "es": "Un titulo corto en español",
+    "en": "Short title in english"
+}
+```
+
 - `preview`: It’s an image url that can be used for the introduction of your exercises.
 
 - `repository`: The link where the repository of the tutorial is hosted.
 
-- `description`: The description of the tutorial.
+- `description`: The description of the tutorial in as many languages as you need. We strongly recommend including the tutorial topics, technologies, and what the student will be capable of doing after completing the tutorial successfully.
+
+```json
+"description": {
+    "es": "Descripcion en español",
+    "en": "English description"
+}
+```
 
 <!--*   `intro`: Here you can add the link to an introductory video that you can show before the first exercise.
      -->
