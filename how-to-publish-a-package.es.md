@@ -1,9 +1,8 @@
 ---
-tags: ["learnpack"]
+tags: ["learnpack", "4geeks"]
 title: "Cómo publicar un paquete LearnPack en la nube"
+description: "LearnPack ha evolucionado. Ahora puedes publicar tus paquetes en la nube, para que puedas acceder a ellos desde cualquier lugar, en cualquier dispositivo. Durante esta guía aprenderás cómo publicar tus propios paquetes LearnPack y comenzar a compartirlos con tus amigos, colegas, estudiantes y el mundo entero."
 ---
-
-LearnPack ha evolucionado. Ahora puedes publicar tus paquetes en la nube, para que puedas acceder a ellos desde cualquier lugar, en cualquier dispositivo. Durante esta guía aprenderás cómo publicar tus propios paquetes LearnPack y comenzar a compartirlos con tus amigos, colegas, estudiantes y el mundo entero.
 
 # Requisitos previos
 
