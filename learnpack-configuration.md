@@ -57,7 +57,7 @@ The `learn.json` file is where all the configurations from the teacher should be
 
 - `publicUrl`: The URL where the instructions will be hosted, its value depends on the agent that you are using.
 
-- `grading`: The grading mode of the tutorial. You can see more about grading modes here: [Grading Modes](/grading-tutorials)​
+- `grading`: The grading mode of the tutorial. You can see more about grading modes here: [Grading Modes](./grading-learnpack-tutorials)​
 
 - `exercisesPath`: The path to the folder where the exercises are located. They could be located at the root of the project.
 
