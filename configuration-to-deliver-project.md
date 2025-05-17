@@ -61,6 +61,7 @@ The following are a few examples of different mime types:
 			"es": "Agrega el la bandera que encontraste con el formato FLAG{hash}"
 		},
 		"formats": ["flag"],
+		"quantity": 2
 	}
 }
 ```
