@@ -60,7 +60,7 @@ The following are a few examples of different mime types:
 			"us": "Paste the flag you found with format FLAG{hash}",
 			"es": "Agrega el la bandera que encontraste con el formato FLAG{hash}"
 		},
-		"formats": ["flag"],
+		"formats": ["flags"],
 		"quantity": 2
 	}
 }
