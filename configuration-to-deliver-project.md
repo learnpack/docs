@@ -51,6 +51,20 @@ The following are a few examples of different mime types:
 }
 ```
 
+### Flag coming from Capture the Flag
+
+```json
+{
+	"delivery": {
+		"instructions": {
+			"us": "Paste the flag you found with format FLAG{hash}",
+			"es": "Agrega el la bandera que encontraste con el formato FLAG{hash}"
+		},
+		"formats": ["flag"],
+	}
+}
+```
+
 ### Text file with multiple mime possibilities
 
 Sometimes, we want to allow multiple file types; in this case, the learner can upload a file from MS Word or PDF.
