@@ -116,6 +116,24 @@ El archivo `learn.json` es donde se establecen todas las configuraciones del ins
 }
 ```
 
+### Entrega de una bandera como proyecto
+
+Algunos proyectos pueden ser entregados usando una estrategia de validación tipo "Capture The Flag (CTF)":
+
+```json
+"delivery": {
+  "instructions": {
+    "us": "Paste the flag you found using the format FLAG{hash}",
+    "es": "Agrega la bandera que encontraste usando el formato FLAG{hash}"
+  },
+  "formats": ["flags"],
+  "quantity": 1
+}
+```
+
+> **Nota:** Si el estudiante debe encontrar más de una bandera, aumenta el valor de la propiedad `"quantity"` para reflejar la cantidad requerida. El sistema se encargará de validar que todas hayan sido entregadas.
+
+
 ### Plugins de Compilador
 
 LearnPack tiene algunos plugins que te permiten compilar y probar tutoriales en diferentes lenguajes. Los lenguajes cubiertos por LearnPack hasta ahora son: python, javascript, html, css, dom, react.
