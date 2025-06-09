@@ -127,6 +127,24 @@ The `learn.json` file is where all the configurations from the teacher should be
 }
 ```
 
+### Delivering a Flag as Project Submission
+
+Some projects can be submitted using a [Capture The Flag (CTF)](https://en.wikipedia.org/wiki/Capture_the_flag_%28cybersecurity%29) validation strategy:
+
+```json
+"delivery": {
+  "instructions": {
+    "us": "Paste the flag you found using the format FLAG{hash}",
+    "es": "Agrega la bandera que encontraste usando el formato FLAG{hash}"
+  },
+  "formats": ["flags"],
+  "quantity": 1
+}
+```
+
+> **Note:** If the student needs to collect more than one flag, increase the value of the `"quantity"` property to reflect the required number of flags. The system will ensure all are submitted.
+
+
 ## Compiler Plugins
 
 LearnPack has some plugins that allow you to compile and test tutorials in different languages. The languages covered by LearnPack so far are: python, javascript, html, css, dom, react.
